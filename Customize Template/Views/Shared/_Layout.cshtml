@@ -1,0 +1,34 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    @await Html.PartialAsync("_Header")
+
+</head>
+<body>
+
+    <div class="container-scroller">
+        @RenderBody()
+
+        @await Html.PartialAsync("_Navbar")
+
+        <div class="container-fluid page-body-wrapper">
+
+            @await Html.PartialAsync("_SettingPanel")
+
+
+            @await Html.PartialAsync("_Sidebar")
+
+            <div class="main-panel">
+
+                @RenderSection("Dashboard", required: false)
+
+            </div>
+        </div>
+    </div>
+
+
+
+    @await Html.PartialAsync("_Footer")
+</body>
+</html>
