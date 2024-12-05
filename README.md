@@ -26,6 +26,10 @@ The repository includes examples and best practices for implementing partial vie
 3. Explore the examples in the `Views` folder.
 4. Implement partial views and layouts in your ASP.NET Core MVC application.
 
+## Credits
+
+This project uses the [Star Admin 2 Free Admin Template](https://themewagon.github.io/star-admin2-free-admin-template/index.html) as the base for the layout and design.
+
 ## Contributing
 
 Feel free to fork this project, submit issues, or open pull requests for improvements and suggestions.
