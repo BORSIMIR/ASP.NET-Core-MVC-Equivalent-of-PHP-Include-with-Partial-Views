@@ -1,0 +1,18 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    @await Html.PartialAsync("_Header")
+
+</head>
+<body>
+
+    <div class="container-scroller">
+        @RenderBody()
+    </div>
+
+
+
+    @await Html.PartialAsync("_Footer")
+</body>
+</html>

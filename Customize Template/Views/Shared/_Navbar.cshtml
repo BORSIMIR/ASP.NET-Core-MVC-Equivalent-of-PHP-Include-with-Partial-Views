@@ -8,7 +8,7 @@
         </div>
         <div>
             <a class="navbar-brand brand-logo" href="@Url.Action("Index")">
-                <h4><span class="text-black fw-bold" style="color:red;">BORSIMIR</span></h4>
+                <h4><span class="text-black fw-bold" style="color:red;">MEOW MEOW</span></h4>
             </a>
             <a class="navbar-brand brand-logo-mini" href="@Url.Action("Index")">
                 @* <img src="~/template/images/logo-mini.svg" alt="logo" />*@
@@ -18,7 +18,7 @@
     <div class="navbar-menu-wrapper d-flex align-items-top">
         <ul class="navbar-nav">
             <li class="nav-item font-weight-semibold d-none d-lg-block ms-0">
-                <h1 class="welcome-text"><span class="text-black fw-bold" style="color:red;">BORSIMIR</span></h1>
+                <h1 class="welcome-text"><span class="text-black fw-bold" style="color:red;">MEOW MEOW</span></h1>
                 <h3 class="welcome-sub-text">Your performance summary this week </h3>
             </li>
         </ul>
@@ -162,7 +162,10 @@
                     <a class="dropdown-item"><i class="dropdown-item-icon mdi mdi-message-text-outline text-primary me-2"></i> Messages</a>
                     <a class="dropdown-item"><i class="dropdown-item-icon mdi mdi-calendar-check-outline text-primary me-2"></i> Activity</a>
                     <a class="dropdown-item"><i class="dropdown-item-icon mdi mdi-help-circle-outline text-primary me-2"></i> FAQ</a>
-                    <a class="dropdown-item"><i class="dropdown-item-icon mdi mdi-power text-primary me-2"></i>Sign Out</a>
+                    <a class="dropdown-item" href="@Url.Action("Login")">
+                        <i class="dropdown-item-icon mdi mdi-power text-primary me-2"></i> Sign Out
+                    </a>
+
                 </div>
             </li>
         </ul>
